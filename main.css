@@ -1,0 +1,169 @@
+/*Common Elements*/
+body {
+    background: #100A04 url(./assets/optimized/footer_lodyas.png) center 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    color: #e7d593;
+    font-size: 4em;
+    padding: 0;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+h3 {
+    color: #e7d593;
+    font-size: 1.7em;
+    padding: 0;
+    text-align: center;
+    margin: 0.5em 0 0.35em 0;
+}
+#shadowBox {
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 40px 10.0px #100A04;
+}
+/*NavBar*/
+nav {
+    color: #FFF;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav li a, navli a:visited {
+    text-decoration: none;
+    color: white;
+    padding: 0.3em 0.6em;
+}
+nav li a:hover {
+    color: #140E1B;
+    background-color: #E7D593;
+}
+nav#shopNav {
+    float: right;
+    margin: 0 0 0 0;
+    padding: 0.35em;
+    height: 1.3em;
+    font-size: 1.0em;
+}
+nav#mainNav {
+    margin-right: 2.0em;
+    margin-top: 6.0em;
+    font-size: 1.1em;
+}
+nav#mainNav li.notFirst::before {
+    content: "\039e ";
+    color: #E7D593;
+}
+.topBar {
+    display: inline-block;
+    width: 100%;
+    background: white url(./assets/optimized/wood-gea66286c5_1920.jpg) bottom center;
+    border-bottom: 2px solid #E7D593;
+}
+#navDiv {
+    float: right;
+}
+#logo {
+    float: left;
+    width: fit-content;
+}
+/*Main Section*/
+.wrapper {
+    background-color: #140E1B;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0;
+}
+.promoContainer {
+    background-color: #E7D593;
+    margin: 0 0;
+    padding: 0 0;
+}
+.sectionTitle {
+    border-bottom: 2px solid #E7D593;
+    margin: 0;
+}
+.itemsContainer {
+    padding-top: 1.5em;
+    background-color: #100A04;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemPanel {
+    float: left;
+    width: 300px;
+    margin: 0.3em 0.3em 2.0em 0.3em;
+    padding: 0.5em;
+    background-color: #140E1B;
+    border: #E7D593 solid 2px;
+    text-align: center;
+}
+.itemPanel p{
+    color: white;
+    text-align: left !important;
+}
+button {
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.0em;
+    background-color: #E7D593;
+    color: #100A04;
+    border: none;
+}
+button:hover {
+    background-color: white;
+}
+.social {
+    border-top: 2px solid #E7D593;
+    text-align: center;
+}
+.social img {
+    margin: 0.5em 1.0em;
+}
+/*Footer*/
+.foot {
+    background-color: #0C1D1B;
+    height: 25px;
+    font-size: 1.0em;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+.foot ul#footerMenu{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.5em 0 0;
+    margin: 0;
+}
+footer ul li.notFirst::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
